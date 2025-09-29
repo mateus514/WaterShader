@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: 564bb328f6138264c863f55f3bacf991, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 57581db6eb39cb84f91cab3e6d90f408, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -128,6 +128,7 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -142,14 +143,17 @@ Material:
     - _StencilWriteMask: 255
     - _Surface: 0
     - _UseUIAlphaClip: 0
+    - _WaterDep: 10
     - _WaterDepth: 10
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0, g: 0.21384907, b: 0.6698113, a: 1}
     - _DeepWater: {r: 0, g: 0.11859507, b: 0.32075468, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShallowCOlor: {r: 0, g: 0.7958136, b: 1, a: 1}
     - _ShallowWater: {r: 0, g: 0.8842337, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
